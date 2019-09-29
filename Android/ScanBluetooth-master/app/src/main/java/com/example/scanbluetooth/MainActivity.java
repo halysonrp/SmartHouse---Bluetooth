@@ -168,7 +168,7 @@ public class MainActivity extends AppCompatActivity {
         this.startActivityForResult(intent, 1000);
     }
 
-    protected void onActivityResult(
+        protected void onActivityResult(
             int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK && requestCode == 1000) {
